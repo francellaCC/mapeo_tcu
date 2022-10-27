@@ -1,0 +1,19 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    place-content: center center;
+}
+
+.container{
+    width: 50%;
+}
+
+.container path{
+    fill: blue;
+    stroke: aliceblue;
+    stroke-width: 2px;
+}
+
+.container:hover{
+    fill: burlywood;
+}
